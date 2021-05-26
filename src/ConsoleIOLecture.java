@@ -2,7 +2,7 @@ import com.sun.security.jgss.GSSUtil;
 
 import java.util.Scanner;
 
-public class ConsoleOLecture {
+public class ConsoleIOLecture {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
 
