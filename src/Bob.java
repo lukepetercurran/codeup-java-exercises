@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Bob {
     public static void main(String[] args) {
        /* Bob is a lackadaisical teenager. In conversation, his responses are very limited.
@@ -8,6 +10,24 @@ public class Bob {
         He answers 'Whatever.' to anything else.
         Write the Java code necessary so that a user of your command line application can have a conversation with Bob. */
 
-
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Hey my names Bob... My mom said you wanted to talk to me, or something... Whatever...");
+        String response = "";
+        while(!response.equalsIgnoreCase("Quit")) {
+            System.out.println("What do you want?");
+            response = sc.nextLine();
+            if (response.isEmpty()) {
+                System.out.println("Fine. Be that way!");
+            } else if (response.endsWith("Bob, who are you, really?")) {
+                System.out.println("Bob Vance, from Vance Refrigeration");
+            } else if (response.endsWith("?")) {
+                System.out.println("Sure");
+            } else if (response.endsWith("!")) {
+                System.out.println("Whoa, chill out!");
+            } else {
+                System.out.println("Whatever.");
+            }
+        }
+        System.out.println("I'm out of here...");
     }
 }
