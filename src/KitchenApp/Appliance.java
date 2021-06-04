@@ -16,7 +16,4 @@ public abstract class Appliance {
 
     public abstract void setBrandName(String brandName);
 
-
-
-
 }
