@@ -1,8 +1,4 @@
-package Bord;
-
-import Bord.Bird;
-import Bord.BirdLover;
-import Bord.BirdShelter;
+package BirdCage;
 
 public class BirdShelterTest {
     public static void main(String[] args) {

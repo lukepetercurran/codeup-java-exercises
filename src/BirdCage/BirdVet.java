@@ -1,6 +1,4 @@
-package Bord;
-
-import Bord.Bird;
+package BirdCage;
 
 public class BirdVet {
     public void careForBird(Bird birdPatient){
