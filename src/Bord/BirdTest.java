@@ -1,6 +1,10 @@
+package Bord;
+
+import Bord.Bird;
+
 public class BirdTest {
     public static void main(String[] args) {
-//        Bird cardinal = new Bird();
+//        Bord.Bird cardinal = new Bord.Bird();
 //        cardinal.setName("Cardinal");
 //        cardinal.setCanFly(true);
 //        cardinal.makeNoise();
@@ -17,14 +21,14 @@ public class BirdTest {
         lesserGoldfinch.makeNoise();
 
         Penguin penguin = new Penguin();
-        penguin.setName("Emperor Penguin");
+        penguin.setName("Emperor Bord.Penguin");
         penguin.setCanFly(false);
         penguin.move();
         penguin.makeNoise();
 
 
         //Polymorphism allows us to have different reference and object types
-//        Bird myPenguin;
+//        Bord.Bird myPenguin;
 
         Finch houseFinch = new Finch();
         Bird piratesBestFriend = new Bird();

@@ -1,3 +1,9 @@
+package Bord;
+
+import Bord.Bird;
+import Bord.BirdLover;
+import Bord.BirdShelter;
+
 public class BirdShelterTest {
     public static void main(String[] args) {
         Bird[] birds = new Bird[3];
@@ -6,7 +12,7 @@ public class BirdShelterTest {
         birds[1] = new Duck();
         birds[1].setName("Mallard");
         birds[2] = new Penguin();
-        birds[2].setName("Emperor Penguin");
+        birds[2].setName("Emperor Bord.Penguin");
 
 //        for (int i = 0; i < birds.length; i++){
 //            birds[i].makeNoise();

@@ -1,4 +1,8 @@
-public class Penguin extends Bird{
+package Bord;
+
+import Bord.Bird;
+
+public class Penguin extends Bird {
     // override MakeNoise()
     public void makeNoise(){
         System.out.println(this.getName() + " goes honk honk!");

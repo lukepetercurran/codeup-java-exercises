@@ -1,3 +1,5 @@
+package Bord;
+
 public class Bird {
     // can it fly
     private boolean canFly;
@@ -37,7 +39,7 @@ public class Bird {
     }
 
     public Bird(){
-        System.out.println("A Bird Just Got Created");
+        System.out.println("A Bord.Bird Just Got Created");
         this.canFly = true;
         this.name = "Parrot";
     }

@@ -1,8 +1,12 @@
+package Bord;
+
+import Bord.Bird;
+
 public class Duck extends Bird {
-    // Duck inherits from Bird
-    // Duck inherits all public methods
+    // Bord.Duck inherits from Bord.Bird
+    // Bord.Duck inherits all public methods
     // let's override
-    //overrides makeNoise() from Bird()
+    //overrides makeNoise() from Bord.Bird()
 
     // when overridng you have to fulfill the protocol
     // the arguments must be the same, and return types compatible
