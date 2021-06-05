@@ -9,5 +9,4 @@ public class ShapesTest {
         System.out.println(box2.getArea()); //should be 25
         System.out.println(box2.getPerimeter()); //should be 20
     }
-
 }
