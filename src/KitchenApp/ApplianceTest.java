@@ -27,9 +27,11 @@ public class ApplianceTest {
         // this keepFresh method will be the implementation we defined in the IceChest class.
         ichest.keepFresh();
 
-        MiniFridge mini = new MiniFridge("one door", "LG");
-
-        // this keepFresh method will be the implementation we defined in the MiniFridge class.
-        mini.keepFresh();
-        }
+//        MiniFridge mini = new MiniFridge("one door", "LG");
+//
+//        // this keepFresh method will be the implementation we defined in the MiniFridge class.
+//        mini.keepFresh();
+//        }
+//    }
     }
+}

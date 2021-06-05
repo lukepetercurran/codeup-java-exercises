@@ -2,15 +2,14 @@ package KitchenApp;
 
 import java.util.Scanner;
 
-public class Refrigerator extends Appliance{
-
+public class Refrigerator extends Appliance implements StoreFood{
     private boolean hasShelves;
 
     public boolean isHasShelves() {
         return hasShelves;
     }
 
-    public void setHasIce(boolean hasIce) {
+    public void setHasIce(boolean hasShelves) {
         this.hasShelves = hasShelves;
     }
 
@@ -41,7 +40,7 @@ public class Refrigerator extends Appliance{
         while (userChoice.equalsIgnoreCase("y") || userChoice.equalsIgnoreCase("yes")) {
             System.out.println("what would you like to put in the fridge?");
             String item = sc.nextLine();
-            System.out.printf("Sounds good! I'll keep yur %s cold for you!\n", item);
+            System.out.printf("Sounds good! I'll keep your %s cold for you!\n", item);
             System.out.println("Would you like to put anything else in the fridge? (Y/N)");
             userChoice = sc.nextLine();
         }
