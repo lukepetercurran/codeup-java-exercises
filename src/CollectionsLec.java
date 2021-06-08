@@ -1,5 +1,5 @@
-import java.lang.reflect.Array;
 import shapes.Square;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -45,7 +45,7 @@ public class CollectionsLec {
         collectionOfDoubles.add((double) 2);
 
         System.out.println(collectionOfDoubles);
-        collectionOfDoubles.remove( 2);
+        collectionOfDoubles.remove( 2.0);
         System.out.println(collectionOfDoubles);
 
 
@@ -70,6 +70,10 @@ public class CollectionsLec {
         HashMap<Character, Square> squares = new HashMap<>();
         squares.put('A', new Square(5));
         squares.put('B', new Square(10));
+        Square sq = new Square(3);
+        squares.put('D', sq);
+        squares.putIfAbsent('D', new Square(9));
+        squares.putIfAbsent('Q', sq);
         System.out.println(squares.get('A').getArea());
 //        System.out.println(squares.get('C').getArea());
         System.out.println(

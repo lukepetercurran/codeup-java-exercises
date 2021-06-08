@@ -8,28 +8,23 @@ public class Student {
     private List<Integer> grades;
 
 
-    public Student(String name){
+    public Student(String name) {
         this.name = name;
         this.grades = new ArrayList<>();
     }
 
     // returns the student's name
-    public String getName(){
+    public String getName() {
         return name;
     }
 
     // adds grade to the grades property
-    public void addGrade(int grade){
+    public void addGrade(int grade) {
         grades.add(grade);
     }
 
     // returns the average of the students grades
-    public double getGradeAverage(){
+    public double getGradeAverage() {
         return (double) grades.stream().reduce(Integer::sum).get() / grades.size();
     }
-
-    public static void main(String[] args) {
-
-    }
-
 }
