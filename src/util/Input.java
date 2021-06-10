@@ -21,7 +21,7 @@ public class Input {
 
     public boolean yesNo(){
         System.out.println("Yes or no?");
-        String userYesNo = scanner.nextLine();
+        String userYesNo = this.scanner.nextLine();
         boolean result = false;
         if (userYesNo.equalsIgnoreCase("yes")){
             result = true;
@@ -37,6 +37,7 @@ public class Input {
     }
 
     public int getInt(){
+        System.out.println(prompt);
         return this.scanner.nextInt();
     }
 
