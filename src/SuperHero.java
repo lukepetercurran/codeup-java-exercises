@@ -14,8 +14,8 @@ public class SuperHero extends Person{
         return this.getName();
     }
 
-    public static void main(String[] args) {
-        SuperHero sb = new SuperHero("Dale")
+//    public static void main(String[] args) {
+//        SuperHero sb = new SuperHero("Dale")
     }
 
-}
+//}

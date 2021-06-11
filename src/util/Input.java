@@ -37,7 +37,7 @@ public class Input {
     }
 
     public int getInt(){
-        System.out.println(prompt);
+//        System.out.println(prompt);
         return this.scanner.nextInt();
     }
 
