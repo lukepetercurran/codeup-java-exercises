@@ -20,6 +20,8 @@ public class ArraysExercises {
   for (Person p : people) {
       p no it doesnt;
 
+      rip
+
     }
 
 
