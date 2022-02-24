@@ -19,7 +19,7 @@ public class Bob {
             if (response.isEmpty()) {
                 System.out.println("Fine. Be that way!");
             } else if (response.endsWith("Bob, who are you, really?")) {
-                System.out.println("Bob Vance, from Vance Refrigeration");
+                System.out.println("Bob Vance, Vance Refrigeration");
             } else if (response.endsWith("?")) {
                 System.out.println("Sure");
             } else if (response.endsWith("!")) {
@@ -31,5 +31,4 @@ public class Bob {
         System.out.println("I'm out of here...");
         System.out.println("Yeah, whatever Bob");
     }
-
 }

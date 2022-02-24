@@ -1,4 +1,4 @@
-public class WoWTeesting {
+public class WoWTesting {
     public static void main(String[] args){
         float crit;
         float time;
